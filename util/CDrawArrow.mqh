@@ -55,7 +55,7 @@ static bool CDrawArrow::ArrowDown(datetime time, double price)
      return(false);
    }
    ObjectSetInteger(chart_ID,name,OBJPROP_ANCHOR,ANCHOR_UPPER);
-   ObjectSetInteger(chart_ID,name,OBJPROP_COLOR,clrRed);
+   ObjectSetInteger(chart_ID,name,OBJPROP_COLOR,clrYellow);
    ObjectSetInteger(chart_ID,name,OBJPROP_STYLE,STYLE_SOLID);
    ObjectSetInteger(chart_ID,name,OBJPROP_WIDTH,width);
    return true;
